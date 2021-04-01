@@ -19,15 +19,12 @@ with open(CONFIGFILE, 'r') as f:
 
 # NGSI-LD Context
 AT_CONTEXT = configuration['context']
-configuration.pop('context')
 
 # CSV_FOLDER should start without any '/', the folder in which the csv files are included, relative to the code
 DATA_FOLDER = configuration['files']
-configuration.pop('files')
 
 # URL for entities
 URL_BROKER = configuration['broker']
-configuration.pop('broker')
 
 # LOG LEVEL
 LOGLEVEL = configuration['log_level']
@@ -45,12 +42,9 @@ except Exception as e:
     print('   * NOTSET')
     exit()
 
-configuration.pop('log_level')
-
 # Scope
 try:
     SCOPE = configuration['scope']
-    configuration.pop('scope')
 except KeyError as e:
     # It is not defined scope, therefore the default value is 0
     SCOPE = 0
