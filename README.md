@@ -1,4 +1,4 @@
-# Fiware4Water Milan Challenge - Script to load data
+# Fiware4Water South West - United Kingdom Challenge
 
 Script to transform .csv data into **ETSI NGSI-LD** payload and upload to a **FIWARE Context Broker**. This python
 script is associated to the corresponding **Fiware4Water Challenge** - South West region in the United Kingdom.
