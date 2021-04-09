@@ -1,0 +1,9 @@
+{
+    "context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/feature/mlaas-models/mlaas/jsonld-contexts/mlaas-compound.jsonld"
+    ],
+    "files": "data",
+    "broker": "http://127.0.0.1:1026",
+    "log_level": "INFO",
+    "scope": 1
+}
